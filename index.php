@@ -11,6 +11,12 @@
 
 <a href="2page.html">"2. oldal"</a>
 
+<?php
+  $color = "red";
+  echo "<p>My car is " . $color . "</p>";
+?>
+
+<p>The apple is <?php echo $color; ?></p>
 
 
 <h2>JavaScript Array Methods</h2> 
