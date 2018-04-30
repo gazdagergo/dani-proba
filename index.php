@@ -31,6 +31,10 @@
 <p id="demo2"></p>
 <p id="demo3"></p>
 
+<?php
+  require './connect.php';
+?>
+
 <script src="dani.js"></script>
 
 </body>
