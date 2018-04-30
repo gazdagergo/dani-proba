@@ -33,6 +33,10 @@
 
 <?php
   require './connect.php';
+  $result = $mysqli->query("SELECT * FROM `probatabla`");
+  while($row = $result->fetch_assoc()) {  
+    echo $row['name'] . ' ' . $row['username'] . '<br/>';
+  }
 ?>
 
 <script src="dani.js"></script>
